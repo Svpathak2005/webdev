@@ -1,0 +1,64 @@
+#body{
+    background-color: pink;
+}
+
+
+#footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Updated */
+    align-items: center; /* Optional: vertically center items */
+    position: sticky;
+    bottom: 0; /* Ensure the footer sticks to the bottom of the viewport */
+}
+#center{
+    height: 500px;
+    background-color: plum;
+  display: flexbox;
+
+  align-items: center;
+}
+#heading{
+    height: 400px;
+    background-color:plum;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    display: inline;
+    flex-direction: row;
+    margin-left: 420px;
+    margin-top: 250px;
+    
+    position:fixed ;
+
+
+}
+#owner{
+    height: 250px;
+    width: 250px;
+    margin-left: 650px;
+    font-size: large;
+    background-color: beige;
+    border: 2px;
+    border-radius: 10px;
+    transition-property: all;
+   
+    
+    
+}
+#owner:hover{
+    background-color: pink;
+   transform:rotateX('45degree')
+   translate("x")
+   color:
+    
+    
+    
+
+}
+   
+
+    
